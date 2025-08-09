@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Feedback</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Web development">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Phan Truong Thinh">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" >
+    <link href="styles/main.css" rel="stylesheet">
+    <link href="styles/mobile.css" rel="stylesheet">
+</head>
+<body>
+  <header >
+    <nav>
+        <a href="page1.html">Introduction</a>
+        <a href="page2.html">Feedback</a>
+        <a href="page3.html">Achivement and timetable</a>
+        <a href="page4.html">Animation</a>
+        <div class="dropdown">
+          <button class="dropbtn">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="page1.html">Introduction</a>
+            <a href="page2.html">Feedback</a>
+            <a href="page3.html">Achivement and timetable</a>
+            <a href="page4.html">Animation</a>
+          </div>
+        </div>
+        
+    </nav>
+  </header>
+    
+  <main>
+    <form id="survey" method="post" action="http://mercury.swin.edu.au/it000000/cos10005/surveytest.php">
+      <label for="fname">Full Name</label>
+    <input type="text" id="fname" name="fullname" placeholder="Your full name..">
+    <p>
+      <label>What do you think about my website (no more than 150 words)</label>
+      <br>
+      <textarea name="comments" rows="6" cols="53"></textarea>
+  </p>
+    <input type="submit" value="Submit">
+    </form>
+  </main>
+    
+</body>

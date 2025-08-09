@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" >    
+    <meta name="description" content="Web development" >
+    <meta name="keywords"    content="Registration Form" >
+    <meta name="author"      content="Phan Truong Thinh" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Web Development Registration Form</title>
+</head>
+<body>
+    <!-- Registration Form -->
+    
+    <h2>User Information</h2>
+    <p>    <label>Name
+            <input type="text" name="username" >
+    </label></p>
+    <p>Gender
+            <label>
+            <input type="checkbox" id="autoCheck" name="autoCheck" value="M" >Auto Check</label>
+            <label>
+            <input type="radio" name="gender" value="M" >Male</label>
+            <label>
+            <input type="radio" name="gender" value="F" >Female</label>
+    </p>
+    <div><input class="button" type="submit" id="clickButton" value="click me" >
+    </div>
+    </form>
+
+    <script>
+        // Get the checkbox element
+        var checkbox = document.getElementById("autoCheck");
+
+        // Add a mouseover event listener to the checkbox
+        checkbox.addEventListener("mouseover", function() {
+            // Simulate a click on the checkbox
+            checkbox.click();
+        });
+    </script>
+</body>
+</html>

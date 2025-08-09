@@ -1,0 +1,101 @@
+@media (max-width: 760px)  {
+    .name{
+        border-style: groove;
+        border-color: rgb(194, 193, 193);
+        position: relative;
+        transition: border-color 0.3s ease;
+        padding: 10px;
+        margin-left:20%;
+        margin: 20px;
+        margin-left: 20px;
+       /* display: flex; */
+        align-items: center;
+        background-color: #fff;
+        width: 90%;
+        
+      }
+      .name div{
+        font-size:small;
+    }
+      .name ul li {
+        font-size: 75%;
+        
+        
+      }
+      .name .my_image{
+        font-size: medium;
+      }
+      .card{
+        margin-left:30%;
+
+      }
+      h1{
+        text-align: center;
+      }
+      .name ul{
+        font-size: 16px ;
+      }
+    
+}
+@media (max-width: 536px){
+    .name ul li{
+        padding-left: 20px;
+        font-size: 75%;
+        
+    }
+    .name .my_image{
+        margin-left: 70px;
+        
+    }
+    .name div{
+      font-size: 75%;
+    }
+    .name{
+        border-style: groove;
+        border-color: rgb(194, 193, 193);
+        position: relative;
+        transition: border-color 0.3s ease;
+        padding: 10px;
+        margin-left:20%;
+        margin: 20px;
+        margin-left: 20px;
+       /* display: flex; */
+        align-items: center;
+        background-color: #fff;
+        width: 90%;
+        display:block;
+        
+      }
+    .card{
+        width: 70%;
+        margin-left:10px;
+    }
+    p{
+      font-size: 100%;
+    }
+
+}
+@media (max-width: 320px){
+  .name{
+    border-style: groove;
+    border-color: rgb(194, 193, 193);
+    position: relative;
+    transition: border-color 0.3s ease;
+    padding: 0px;
+    margin-left:10%;
+    margin-top: 10px;
+    margin: 10px;
+    margin-left: 0px;
+   /* display: flex; */
+    align-items: center;
+    background-color: #fff;
+    width: 100%;
+    display:block;
+    
+  }
+  .my_image img{
+    width: 150px;
+    margin-left: 2px;
+  }
+
+}
